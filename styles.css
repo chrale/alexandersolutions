@@ -221,41 +221,41 @@ h5 span{
 
 @font-face {
   font-family: 'Lonely';
-  src: url('../stylesheets/fonts/Lonely-Regular.eot') format('eot'),
-  url('../stylesheets/fonts/Lonely-Regular.woff2') format('woff2'),
-  url('../stylesheets/fonts/Lonely-Regular.woff') format('woff'), 
-  url('../stylesheets/fonts/Lonely-Regular.ttf') format('truetype');	
+  src: url('Lonely-Regular.eot') format('eot'),
+  url('Lonely-Regular.woff2') format('woff2'),
+  url('Lonely-Regular.woff') format('woff'), 
+  url('Lonely-Regular.ttf') format('truetype');	
 }
 @font-face {
   font-family: 'GeoSansLight';
-  src: url('../stylesheets/fonts/GeoSansLight.eot') format('eot'),
-  url('../stylesheets/fonts/GeoSansLight.woff2') format('woff2'),
-  url('../stylesheets/fonts/GeoSansLight.woff') format('woff'), 
-  url('../stylesheets/fonts/GeoSansLight.ttf') format('truetype');	
+  src: url('GeoSansLight.eot') format('eot'),
+  url('GeoSansLight.woff2') format('woff2'),
+  url('GeoSansLight.woff') format('woff'), 
+  url('GeoSansLight.ttf') format('truetype');	
 }
 
 @font-face {
   font-family: 'Kiona';
-  src: url('../stylesheets/fonts/Kiona-Regular.eot') format('eot'),
-  url('../stylesheets/fonts/Kiona-Regular.woff2') format('woff2'),
-  url('../stylesheets/fonts/Kiona-Regular.woff') format('woff'), 
-  url('../stylesheets/fonts/Kiona-Regular.ttf') format('truetype');	
+  src: url('Kiona-Regular.eot') format('eot'),
+  url('Kiona-Regular.woff2') format('woff2'),
+  url('Kiona-Regular.woff') format('woff'), 
+  url('Kiona-Regular.ttf') format('truetype');	
 }
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url('../stylesheets/fonts/CoolveticaRg-Regular.eot') format('eot'),
-  url('../stylesheets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
-  url('../stylesheets/fonts/CoolveticaRg-Regular.woff') format('woff'), 
-  url('../stylesheets/fonts/CoolveticaRg-Regular.ttf') format('truetype');	
+  src: url('CoolveticaRg-Regular.eot') format('eot'),
+  url('CoolveticaRg-Regular.woff2') format('woff2'),
+  url('CoolveticaRg-Regular.woff') format('woff'), 
+  url('CoolveticaRg-Regular.ttf') format('truetype');	
 }
 
 @font-face {
   font-family: 'Some';
- src: url('../stylesheets/fonts/IconsSocialMedia6.eot') format('eot'),
-  url('../stylesheets/fonts/IconsSocialMedia6.woff2') format('woff2'),
-  url('../stylesheets/fonts/IconsSocialMedia6.woff') format('woff'), 
-  url('../stylesheets/fonts/IconsSocialMedia6.ttf') format('truetype');	
+ src: url('IconsSocialMedia6.eot') format('eot'),
+  url('IconsSocialMedia6.woff2') format('woff2'),
+  url('IconsSocialMedia6.woff') format('woff'), 
+  url('IconsSocialMedia6.ttf') format('truetype');	
 }
 
 .row{

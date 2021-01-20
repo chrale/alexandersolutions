@@ -228,10 +228,10 @@ h5 span{
 }
 @font-face {
   font-family: 'GeoSansLight';
-  src: url('../stylesheets/fonts/GeoSansLight.eot') format('eot'),
-  url('../stylesheets/fonts/GeoSansLight.woff2') format('woff2'),
-  url('../stylesheets/fonts/GeoSansLight.woff') format('woff'), 
-  url('../stylesheets/fonts/GeoSansLight.ttf') format('truetype');	
+  src: url('../stylesheets/fonts/GeosansLight.eot') format('eot'),
+  url('../stylesheets/fonts/GeosansLight.woff2') format('woff2'),
+  url('../stylesheets/fonts/GeosansLight.woff') format('woff'), 
+  url('../stylesheets/fonts/GeosansLight.ttf') format('truetype');	
 }
 
 @font-face {

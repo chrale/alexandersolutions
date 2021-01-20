@@ -6,7 +6,6 @@ html, body {
   scroll-behavior: smooth;
 	
 }
-
 body {
   min-height: 100%;
   min-width: 100%;
@@ -20,8 +19,6 @@ body {
   min-height: 50px;
   font-size: 20px;
   font-family: Kiona;
-  
-  transition: top 0.3s;
 }
 
 
@@ -74,7 +71,8 @@ body {
 
 #section2{
 	align-items: center;
- background: #2b2aab;
+background: rgb(25,23,98);
+background: linear-gradient(135deg, rgba(25,23,98,1) 5%, rgba(32,32,138,1) 28%, rgba(73,69,220,1) 53%, rgba(149,145,232,1) 65%, rgba(213,212,243,1) 77%, rgba(106,102,184,1) 88%);
 }
 
 .text2{
@@ -105,9 +103,18 @@ h2 span {
 	text-align: center;	
 } 
 
+.img-container{
+	background-image: url(profile.jpg);
+	width:25%;
+	 background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 90% 90%;
+}
+
 
 #section3{	
-  background:#d5d4f3;
+  background: rgb(37,36,48);
+background: linear-gradient(45deg, rgba(37,36,48,1) 5%, rgba(51,37,62,1) 28%, rgba(78,97,77,1) 53%, rgba(149,145,232,1) 65%, rgba(213,212,243,1) 77%, rgba(106,102,184,1) 88%);
 }
 
 .text3{
@@ -139,7 +146,8 @@ h3 span{
 
 #section4{  
 	align-items: flex-start;
-	background-color:#2b2aab;
+background: rgb(37,36,48);
+background: linear-gradient(135deg, rgba(37,36,48,1) 5%, rgba(51,37,62,1) 28%, rgba(78,97,77,1) 53%, rgba(164,197,133,1) 65%, rgba(68,76,72,1) 77%, rgba(31,16,43,1) 88%);
 }
 
 .text4{
@@ -203,17 +211,14 @@ h5 span{
 	color: white;
 	text-align: center;	
 }
-
-
-
-/*
-@media screen and (max-width: 768px) {
-  .navbar {   
-    flex-direction: column;
-	
-  }
+.some{
+	font-family: Some;
+	font-size: 35px;
+	color: white;
+	text-align: center;	
 }
-*/
+
+
 @font-face {
   font-family: 'Lonely';
   src: url('../stylesheets/fonts/Lonely-Regular.eot') format('eot'),
@@ -238,14 +243,6 @@ h5 span{
 }
 
 @font-face {
-  font-family: 'Garland';
-  src: url('../stylesheets/fonts/Garland.eot') format('eot'),
-  url('../stylesheets/fonts/Garland.woff2') format('woff2'),
-  url('../stylesheets/fonts/Garland.woff') format('woff'), 
-  url('../stylesheets/fonts/Garland.ttf') format('truetype');	
-}
-
-@font-face {
   font-family: 'Coolvetica';
   src: url('../stylesheets/fonts/CoolveticaRg-Regular.eot') format('eot'),
   url('../stylesheets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
@@ -261,29 +258,37 @@ h5 span{
   url('../stylesheets/fonts/IconsSocialMedia6.ttf') format('truetype');	
 }
 
-@font-face {
-  font-family: 'Some2';
- src: url('../stylesheets/fonts/socialmedia.eot') format('eot'),
-  url('../stylesheets/fonts/socialmedia.woff2') format('woff2'),
-  url('../stylesheets/fonts/socialmedia.woff') format('woff'), 
-  url('../stylesheets/fonts/socialmedia.ttf') format('truetype');	
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
 }
-
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 10%;
-  padding: 10px;
+   flex: 25%;
+   max-width:20%;
+   padding: 0 4px;
+   margin-bottom: 50px;
 }
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8; 
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+  /*opacity: 0.8; */
   cursor: pointer; 
+  width: 100%;
+  vertical-align: middle;
+    transition:transform 0.25s ease;
 }
+
 
 .column img:hover {
   opacity: 1;
+    -webkit-transform:scale(2.5);
+    transform:scale(2.5);
 }
 
 /* Clear floats after the columns */
@@ -293,19 +298,18 @@ h5 span{
   clear: both;
 }
 
-/* The expanding image container */
-.container2 {
-  display: none;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
-

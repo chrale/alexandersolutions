@@ -70,7 +70,6 @@ body {
 }
 
 #section2{
-	align-items: center;
 background: rgb(25,23,98);
 background: linear-gradient(135deg, rgba(25,23,98,1) 5%, rgba(32,32,138,1) 28%, rgba(73,69,220,1) 53%, rgba(149,145,232,1) 65%, rgba(213,212,243,1) 77%, rgba(106,102,184,1) 88%);
 }

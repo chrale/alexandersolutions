@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+  <title>Alexander Data Solutions</title>
+</head>
+<body>
+
+<div class="navbar">
+	<a href="#section1">Home</a>
+	<a href="#section2">About me</a>
+	<a href="#section3">My work</a>
+	<a href="#section4">Photography</a>
+	<a href="#section5">Contact</a>
+</div>
+
+	
+<div class="container" id="section1">
+	<span class="text1">
+		<div class="h1">Alexander Data Solutions</div>
+		<div class="p1">Full stack solutions and photography</div> 
+	</span>	
+</div>
+	
+<div class="container" id="section2">
+	<div class="text2">
+		<h2><span>About me</span></h2>
+		<span class="p2">G'day mate. I am an Australian living in Finland since 1989. Thanks to my Finnish wife, four adult children, and working
+		in Humak I have fully adopted to Finnish culture, without forgetting my Aussie humor.<br>
+		<br>
+		Personal space is my number 1 and 
+
+
+Most of the winter I spend in the cabin. I enjoy downhill skiing, during the 2018 to 2019 season I squeezed in 73 days of downhill. The next season was cut short because of the pandemic. I enjoy cross country skiing, snow shoe walking, hiking, travelling, cycling road and fat bike riding. Most summers I manage to ride over 1000 km. This place gives an enormous amount of outdoor hobbies.
+
+Photograhpy is also a hobby of mine. I enjoy taking pictures of the nature, people, my family. Especially taking pictures with the tripod of Northern lights is a great thrill.
+
+I find developing and making things very satisfying. I have built my own house and renovated a lot of things at the cabin. An Aussie has to have a garage in every house. Either being in software or welding something together with steel or making some with wood. My biggest metal project was a 10 tonne bogie axle forest trailer.		</span> 
+	</div>	
+</div>
+	
+<div class="container" id="section3">
+	<span class="text3">
+		<h3><span>My work</span></h3>
+		<span class="p3">Full stack solutions and photography</span> 
+	</span>	
+</div>
+	
+<div class="container" id="section4">
+	<div class="text4">
+		<h4><span>Photography</span></h4>
+		
+		<span class="p4">Canon 600D CMOS APS-C Sensor<br>
+						Canon EF 70-200mm f/2.8L USM<br>
+						Canon EF 24-70mm f/4L IS USM<br>
+						Rollei C5i Carbon Tripod<br>
+		</span> 
+		
+		<div class="row">
+		  <div class="column">
+			<img src="snow_cave01.jpg" style="width:100%" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="northern_lights05.jpg" style="width:100%" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="northern_lights01.jpg" style="width:100%" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="snow_cave01.jpg" style="width:100%" onclick="myFunction(this);">
+		  </div>
+		</div>
+
+		<div class="container2">
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		  <img id="expandedImg" style="width:40%">
+		  <div id="imgtext"></div>
+		</div>
+
+	</div>
+</div>
+
+<div class="container" id="section5">
+	<div class="text5">
+		<h4>Contact</h5>
+		<span class="p5">
+		<br>
+		<br>scott.alexander@email.com</span> 
+	</div>	
+</div>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+</body>
+</html>
